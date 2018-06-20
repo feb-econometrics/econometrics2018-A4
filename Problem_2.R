@@ -5,7 +5,7 @@
 adv <- read.csv('https://s3.eu-central-1.amazonaws.com/econometrics2018/data/Advertising.csv')
 str(adv)
 
-## 1) Fit separete regressio models for each advertising channel
+## 1) Fit separete regression models for each advertising channel
 
 fitTV <- lm(sales ~ TV, data = adv)
 fitRadio <- lm(sales ~ radio, data = adv)
